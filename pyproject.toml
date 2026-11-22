@@ -1,0 +1,14 @@
+[project]
+name = "drift-phase3"
+version = "1.0.0"
+description = "Watching the Distribution Move: temporal drift detection and visualisation in stock data (DAV Phase 3)"
+requires-python = ">=3.10"
+dependencies = ["numpy", "pandas", "scipy", "scikit-learn", "statsmodels", "river", "hmmlearn", "ruptures", "scikit-posthocs", "plotly", "matplotlib"]
+
+[tool.uv]
+package = false
+
+[tool.uv.workspace]
+members = [
+    "user_study",
+]

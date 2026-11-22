@@ -1,0 +1,13 @@
+numpy
+pandas
+scipy
+scikit-learn
+statsmodels
+river
+hmmlearn
+ruptures
+scikit-posthocs
+plotly
+matplotlib
+# optional: only needed if data/SP500_close.csv is deleted (the S&P 500 then loads from the skfolio package)
+# skfolio

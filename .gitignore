@@ -1,0 +1,48 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment variables / secrets
+.env
+.env.*
+!.env.example
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+
+# Generated outputs
+outputs/*
+!outputs/.gitkeep
+
+# Keep final results if needed
+# results/  <-- Don't ignore the whole folder
+
+# Private user study data
+user_study/
+
+# Large datasets (adjust according to your actual structure)
+data/
+*.xlsx
+*.parquet
